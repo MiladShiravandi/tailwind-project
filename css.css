@@ -1,0 +1,48 @@
+.li{
+    margin-top: 42px;
+    width: 400px;
+    height: 600px;
+
+
+
+}
+.image{
+    width: 260px;
+    height:350px ;
+    margin: auto;
+    cursor: pointer;
+}
+
+.title{
+    width: 300px;
+    height: 32px;
+    margin: auto;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.description{
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    margin-top: 16px;
+    overflow-y: scroll;
+    padding: 18px;
+}
+.price{
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.rate{
+    margin-top: -26px;
+    margin-left: 270px;
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+color: gold;
+margin-left: 8px;
+}
+body{
+    transform: translateX();
+}

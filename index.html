@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css.css">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="container mx-auto box-border ">
+    <!-- menu -->
+    <div class="container mx-auto mt-4 flex items-center justify-start gap-8">
+        <div class="logo"><img src="./image/Euphoria.png" alt=""></div>
+        <div class="flex items-center gap-14 text-2xl">
+            <a href="">Shop</a>
+            <a href="">men</a>
+            <a href="">Women</a>
+            <a href="">Combos</a>
+            <a href="">joggers</a>
+            <input type="search" class="w-[300px]  h-[30px] bg-slate-100 px-2 rounded-md items-center outline-none text-sm " placeholder="search">
+            <div class="flex items-center gap-12">
+                <span class="fas fa-heart hover:cursor-pointer"></span>
+                <span class="fas fa-user hover:cursor-pointer"></span>
+                <span class="fas fa-arrow-left hover:cursor-pointer"></span>
+            </div>
+        </div>
+        
+    </div>
+    <!-- baner -->
+    <div>
+        <img class="w-full mt-4" src="./image/Banner.png" alt="">
+    </div>
+    
+    <div class="container mx-auto flex items-center justify-around mt-12 box-border" >
+        <div class="w-2/5 relative box-border  rounded-md">
+            <img class="box-border" src="./image/unsplash_Qyc13QBGaM4-yellow.jpg"  alt="#">
+            <span class=" absolute left-10 top-14 text-white text-xl font-semibold">Low Price</span>
+            <span class=" absolute left-10 top-28 text-white text-4xl font-semibold">High Coziness</span>
+            <span class=" absolute left-10 top-40 text-white text-sm font-semibold">UPTO 50% OFF</span>
+            <a class=" absolute left-10 top-56 text-white text-sm font-semibold" href="">Explore Items</a>
+        </div>
+        <div class="w-2/5 box-border  rounded-md relative">
+            <img class="box-border " src="./image/unsplash_Qyc13QBGaM4 (1)prouple.jpg"  alt="#">
+            <span class=" absolute left-10 top-14 text-white text-xl font-semibold">Beyoung Presents</span>
+            <span class=" absolute left-10 top-28 text-white text-4xl font-semibold">Breezy <br>Summer Style</span>
+            <span class=" absolute left-10 top-48 text-white text-sm font-semibold">UPTO 50% OFF</span>
+            <a class=" absolute left-10 top-56 text-white text-sm font-semibold" href="">Explore Items</a>
+        </div>
+
+    </div>
+    <!-- New Arrival -->
+    <div class="container mx-auto ">
+        <div class="border-l-8 border-[#8a33fd] pl-1 mt-14 mb-4 flex items-center justify-between">New Arrival
+            <div class="flex gap-2 mr-20">
+                <span class="fas fa-arrow-alt-circle-left text-2xl cursor-pointer"></span>
+                <span class="fas fa-arrow-alt-circle-right text-2xl cursor-pointer"></span>
+            </div>
+        </div>
+
+        <div class="newArrival w-[1200px] overflow-hidden">
+        <ul class="items flex  mt-8 justify-between new-arrival-item transition delay-100 duration-700 ease-out">
+            
+        </ul>    
+        </div>
+
+        
+    </div>
+    <div class="container">
+        <div class="border-l-8 border-[#8a33fd] pl-1 mt-14 mb-4 flex items-center justify-between">Big Saving Zone
+        </div>
+        <div class="flex">
+            <div class="mx-2 relative">
+                <img src="./image/hawaei-tshirt.jpg" alt="">
+                <p class="absolute top-12 left-4 text-white text-4xl cursor-pointer">Hawaiian <br> Shirts</p>
+                <p class="text-white absolute left-4 top-36">Dress up in summer vibe</p>
+                <p class="text-white absolute left-4 top-44">UPTO 50% OFF</p>
+                <span class="fas fa-arrow-down absolute left-16 top-60 text-white text-3xl"></span>
+                <button class="absolute bottom-14 left-6 border-2 rounded-lg text-white px-4 py-1">Shop Now</button>
+            </div>
+            <div class="mx-2 relative">
+                <img src="./image/printed-tshirt.jpg" alt="">
+                <p class="absolute top-12 left-4 text-white text-4xl cursor-pointer">Hawaiian <br> Shirts</p>
+                <p class="text-white absolute left-4 top-36">Dress up in summer vibe</p>
+                <p class="text-white absolute left-4 top-44">UPTO 50% OFF</p>
+                <span class="fas fa-arrow-down absolute left-16 top-60 text-white text-3xl"></span>
+                <button class="absolute bottom-14 left-6 border-2 rounded-lg text-white px-4 py-1">Shop Now</button>
+            </div>
+            <div class="mx-2 relative">
+                <img src="./image/cargo.png" alt="">
+                <p class="absolute top-12 left-[50%]  text-4xl cursor-pointer">Cargo <br> Joggers</p>
+                <p class="absolute left-[50%] top-36">Move with style & comfort</p>
+                <p class="absolute left-[50%] top-44">UPTO 50% OFF</p>
+                <span class="fas fa-arrow-down absolute left-[66%] top-[60%]  text-3xl"></span>
+                <button class="absolute bottom-14 left-[56%] border-2 border-black rounded-lg  px-4 py-1">Shop Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col text-3xl gap-2 fixed bottom-4 right-[10%]">
+        <div class="hidden circle-up">
+            <span class="fas fa-arrow-alt-circle-up cursor-pointer"></span>
+        </div>
+        <div>
+            <span class="fas fa-arrow-alt-circle-down cursor-pointer"></span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
